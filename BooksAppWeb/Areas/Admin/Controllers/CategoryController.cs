@@ -1,12 +1,15 @@
 ﻿using BooksApp.DataAccess.Repository.IRepository;
 using BooksApp.Models;
+using BooksApp.Utility;
 using BooksAppWeb.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
 namespace BooksAppWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
