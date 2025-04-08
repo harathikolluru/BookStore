@@ -1,11 +1,11 @@
 using System.Diagnostics;
 using System.Security.Claims;
-using BooksApp.DataAccess.Repository.IRepository;
-using BooksApp.Models;
+using BookStore.DataAccess.Repository.IRepository;
+using BookStore.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BooksAppWeb.Areas.Customer.Controllers
+namespace BookStoreWeb.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class HomeController : Controller

@@ -10,8 +10,8 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
-using BooksApp.Models;
-using BooksApp.Utility;
+using BookStore.Models;
+using BookStore.Utility;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -23,7 +23,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
 
-namespace BooksAppWeb.Areas.Identity.Pages.Account
+namespace BookStoreWeb.Areas.Identity.Pages.Account
 {
     public class RegisterModel : PageModel
     {

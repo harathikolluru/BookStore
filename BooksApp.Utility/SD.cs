@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BooksApp.Utility
+namespace BookStore.Utility
 {
     public static class SD
     {

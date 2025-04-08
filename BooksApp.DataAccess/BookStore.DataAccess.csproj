@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BooksApp.Models\BooksApp.Models.csproj" />
+    <ProjectReference Include="..\BooksApp.Models\BookStore.Models.csproj" />
   </ItemGroup>
 
 </Project>

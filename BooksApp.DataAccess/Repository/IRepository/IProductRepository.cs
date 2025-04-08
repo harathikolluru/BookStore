@@ -1,11 +1,11 @@
-﻿using BooksApp.Models;
+﻿using BookStore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BooksApp.DataAccess.Repository.IRepository
+namespace BookStore.DataAccess.Repository.IRepository
 {
     public interface IProductRepository : IRepository<Product>
     {

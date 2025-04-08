@@ -1,12 +1,12 @@
 using System.Diagnostics;
 using System.Security.Claims;
-using BooksApp.DataAccess.Repository.IRepository;
-using BooksApp.Models;
-using BooksApp.Models.ViewModels;
+using BookStore.DataAccess.Repository.IRepository;
+using BookStore.Models;
+using BookStore.Models.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BooksAppWeb.Areas.Customer.Controllers
+namespace BookStoreWeb.Areas.Customer.Controllers
 {
     [Area("customer")]
     public class CartController : Controller

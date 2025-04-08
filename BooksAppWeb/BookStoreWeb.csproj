@@ -19,8 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BooksApp.DataAccess\BooksApp.DataAccess.csproj" />
-    <ProjectReference Include="..\BooksApp.Utility\BooksApp.Utility.csproj" />
+    <ProjectReference Include="..\BooksApp.DataAccess\BookStore.DataAccess.csproj" />
+    <ProjectReference Include="..\BooksApp.Utility\BookStore.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>

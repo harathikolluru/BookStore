@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BooksApp.Models.ViewModels
+namespace BookStore.Models.ViewModels
 {
     public class ShoppingCartVM
     {

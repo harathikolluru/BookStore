@@ -1,13 +1,13 @@
-﻿using BooksApp.DataAccess.Repository.IRepository;
-using BooksApp.Models;
-using BooksAppWeb.Data;
+﻿using BookStore.DataAccess.Repository.IRepository;
+using BookStore.Models;
+using BookStoreWeb.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BooksApp.DataAccess.Repository
+namespace BookStore.DataAccess.Repository
 {
     public class CategoryRepository : Repository<Category>, ICategoryRepository
     {

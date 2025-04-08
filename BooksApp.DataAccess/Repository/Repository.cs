@@ -1,5 +1,5 @@
-﻿using BooksApp.DataAccess.Repository.IRepository;
-using BooksAppWeb.Data;
+﻿using BookStore.DataAccess.Repository.IRepository;
+using BookStoreWeb.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,9 +7,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using BooksApp.DataAccess.Repository.IRepository;
+using BookStore.DataAccess.Repository.IRepository;
 
-namespace BooksApp.DataAccess.Repository
+namespace BookStore.DataAccess.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
     {

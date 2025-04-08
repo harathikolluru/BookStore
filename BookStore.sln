@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksAppWeb", "BooksAppWeb\BooksAppWeb.csproj", "{B19B640F-828E-43B7-8416-570A2A300CAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStoreWeb", "BooksAppWeb\BookStoreWeb.csproj", "{B19B640F-828E-43B7-8416-570A2A300CAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksApp.DataAccess", "BooksApp.DataAccess\BooksApp.DataAccess.csproj", "{9827AD44-AADB-4657-BC0B-1F794106E4D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.DataAccess", "BooksApp.DataAccess\BookStore.DataAccess.csproj", "{9827AD44-AADB-4657-BC0B-1F794106E4D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksApp.Models", "BooksApp.Models\BooksApp.Models.csproj", "{35D17D8D-2492-41DC-A0A1-E6445DB0AF0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Models", "BooksApp.Models\BookStore.Models.csproj", "{35D17D8D-2492-41DC-A0A1-E6445DB0AF0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksApp.Utility", "BooksApp.Utility\BooksApp.Utility.csproj", "{78AC2B18-C18A-4E54-A265-62123FDE62CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Utility", "BooksApp.Utility\BookStore.Utility.csproj", "{78AC2B18-C18A-4E54-A265-62123FDE62CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

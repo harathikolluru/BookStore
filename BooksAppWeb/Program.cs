@@ -1,10 +1,10 @@
-using BooksApp.DataAccess.Repository.IRepository;
-using BooksApp.DataAccess.Repository;
-using BooksAppWeb.Data;
+using BookStore.DataAccess.Repository.IRepository;
+using BookStore.DataAccess.Repository;
+using BookStoreWeb.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
-using BooksApp.Utility;
+using BookStore.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 

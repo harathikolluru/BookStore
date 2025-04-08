@@ -1,8 +1,8 @@
-﻿using BooksApp.Models;
+﻿using BookStore.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BooksAppWeb.Data
+namespace BookStoreWeb.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {

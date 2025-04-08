@@ -1,12 +1,12 @@
-﻿using BooksApp.DataAccess.Repository.IRepository;
-using BooksApp.Models;
-using BooksApp.Utility;
-using BooksAppWeb.Data;
+﻿using BookStore.DataAccess.Repository.IRepository;
+using BookStore.Models;
+using BookStore.Utility;
+using BookStoreWeb.Data;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
-namespace BooksAppWeb.Areas.Admin.Controllers
+namespace BookStoreWeb.Areas.Admin.Controllers
 {
     [Area("Admin")]
     //[Authorize(Roles = SD.Role_Admin)]

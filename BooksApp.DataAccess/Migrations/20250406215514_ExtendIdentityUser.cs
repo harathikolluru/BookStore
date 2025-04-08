@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace BooksApp.DataAccess.Migrations
+namespace BookStore.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class ExtendIdentityUser : Migration
