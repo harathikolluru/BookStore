@@ -1,7 +1,7 @@
-﻿using BooksAppWebRazor_Temp.Models;
+﻿using BookStoreWebRazor_Temp.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BooksAppWebRazor_Temp.Data
+namespace BookStoreWebRazor_Temp.Data
 {
     public class ApplicationDbContext : DbContext
     {

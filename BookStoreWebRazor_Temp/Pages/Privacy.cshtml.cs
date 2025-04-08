@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BooksAppWebRazor_Temp.Pages
+namespace BookStoreWebRazor_Temp.Pages
 {
     public class PrivacyModel : PageModel
     {

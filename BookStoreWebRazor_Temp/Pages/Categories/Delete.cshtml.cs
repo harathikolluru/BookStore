@@ -1,9 +1,9 @@
-using BooksAppWebRazor_Temp.Data;
-using BooksAppWebRazor_Temp.Models;
+using BookStoreWebRazor_Temp.Data;
+using BookStoreWebRazor_Temp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BooksAppWebRazor_Temp.Pages.Categories
+namespace BookStoreWebRazor_Temp.Pages.Categories
 {
     [BindProperties]
     public class DeleteModel : PageModel

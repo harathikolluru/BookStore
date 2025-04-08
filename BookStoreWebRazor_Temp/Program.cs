@@ -1,4 +1,4 @@
-using BooksAppWebRazor_Temp.Data;
+using BookStoreWebRazor_Temp.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

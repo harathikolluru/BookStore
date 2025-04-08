@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace BooksAppWebRazor_Temp.Migrations
+namespace BookStoreWebRazor_Temp.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryTableToDb : Migration
