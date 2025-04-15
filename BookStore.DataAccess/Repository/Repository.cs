@@ -1,5 +1,4 @@
 ﻿using BookStore.DataAccess.Repository.IRepository;
-using BookStoreWeb.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,6 +7,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using BookStore.DataAccess.Repository.IRepository;
+using BookStore.Data;
 
 namespace BookStore.DataAccess.Repository
 {

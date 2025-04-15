@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BookStoreWeb.Data
+namespace BookStore.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
