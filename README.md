@@ -43,29 +43,27 @@ Make sure you have the following installed:
 
 
 ## Installation
+1. Clone the repository
 
-Clone the repository
+    `git clone https://github.com/harathikolluru/BookStore.git
+    cd BookStore`
+2. Set up the database
 
-`git clone https://github.com/harathikolluru/BookStore.git
-cd BookStore`
+    Open the solution in Visual Studio.
 
-Set up the database
+    Update the connection string in appsettings.json inside BookStoreWeb with your local SQL Server instance.
 
-Open the solution in Visual Studio.
+3. Run the following in the Package Manager Console:
 
-Update the connection string in appsettings.json inside BookStoreWeb with your local SQL Server instance.
+    `Update-Database`
 
-Run the following in the Package Manager Console:
+    This will apply any existing EF Core migrations and create the database.
 
-`Update-Database`
+4. Run the project
 
-This will apply any existing EF Core migrations and create the database.
+    `dotnet run --project BookStoreWeb`
 
-Run the project
-
-`dotnet run --project BookStoreWeb`
-
-Visit https://localhost:5001 or http://localhost:5000 in your browser.
+    Visit https://localhost:5001 or http://localhost:5000 in your browser.
 
 
 ## Demo
