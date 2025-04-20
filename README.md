@@ -65,6 +65,14 @@ Make sure you have the following installed:
 
     Visit https://localhost:5001 or http://localhost:5000 in your browser.
 
+## Screenshots
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/df1746bf-6fd2-443c-a1af-55642997463c" />
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/d7fb32cd-251b-4179-b5ed-af77a68cec32" />
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/5cef514a-a3c0-43a6-9db6-0bb0f03f503f" />
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/b8b869a0-a176-4344-8e5b-147effd512d8" />
+
+
+
 
 ## Demo
 
